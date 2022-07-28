@@ -266,3 +266,24 @@ a {
 .contact p {
     margin-bottom: 0px!important;
 }
+
+
+
+
+
+
+.logo {
+    margin: 10px 0 10px 10px;
+    max-width: 50px;
+}
+
+nav ul {
+    display: inline;
+    margin: 10px 0 0 0;
+    padding: 10px 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 20px;
+}
