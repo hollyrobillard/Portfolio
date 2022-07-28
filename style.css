@@ -45,13 +45,18 @@
     text-align: center;
 }
 
+.index-body img {
+    border: 10px solid var(--primary-background-color);
+    border-radius: 2px;
+}
+
 a {
     border-radius: 4px;
     text-align: center;
 }
 
 .row {
-    margin: 40px 0px;
+    margin: 50px 0px;
 }
 
 .btn-primary-color {
