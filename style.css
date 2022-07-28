@@ -11,12 +11,14 @@
     font-family: 'Barlow', sans-serif;
     font-family: 'Quicksand', sans-serif;
     margin: 10px;
+    border: 1px solid var(--primary-button-color);
 }
 
 .index-heading {
     background-color: var(--primary-background-color);
     text-align: center;
-    padding: 20px 10px;
+    padding: 40px 10px;
+    border: 1px solid var(--primary-button-color);
 }
 
 .index-heading h1 {
@@ -33,7 +35,7 @@
 
 .index-body {
     background-color: var(--secondary-background-color);
-    padding: 20px 10px;
+    padding: 20px 10px 5px 10px;
 }
 
 .index-body p {
@@ -68,5 +70,45 @@ a {
     .index-body {
         text-align: center;
         justify-content: center;
+    }
+}
+
+@media (max-width:250px) {
+    .btn-primary-color {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media (min-width:770px) {
+    .index-heading h2 {
+        font-size: 45px;
+    }
+
+    .index-heading h1 {
+        font-size: 55px;
+    }
+    
+    .index-heading p {
+        font-size: 25px;
+    }
+
+    .index-body-intro {
+        font-size: 25px;
+    }
+
+    .index-body h2 {
+        font-size: 40px;
+    }
+    .app-details {
+        font-size: 20px;
+    }
+
+    .btn-primary-color {
+        font-size: 18px!important;
+    }
+
+    .row {
+        padding: 0 20px;
     }
 }
