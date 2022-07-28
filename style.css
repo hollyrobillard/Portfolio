@@ -3,31 +3,65 @@
     --secondary-text-color: rgb(53, 51, 51);
     --tertiary-text-color: rgba(53, 51, 51, 0.521);
     --primary-background-color: rgba(131, 131, 209, 0.288);
+    --secondary-background-color: rgba(223, 223, 236, 0.288);
+    --primary-button-color: rgba(10, 10, 100, 0.589);
 }
 
 .page-text {
     font-family: 'Barlow', sans-serif;
     font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+}
+
+.index-heading {
     background-color: var(--primary-background-color);
-    padding: 10px;
+    text-align: center;
+    padding: 20px 10px;
 }
 
-h1 {
+.index-heading h1 {
     color: var(--primary-text-color);
-    text-align: center;
 }
 
-h2 {
+.index-heading h2 {
     color: var(--secondary-text-color);
-    text-align: center;
 }
 
-p {
+.index-heading p {
     color: var(--tertiary-text-color);
+}
+
+.index-body {
+    background-color: var(--secondary-background-color);
+    padding: 20px 10px;
+}
+
+.index-body p {
+    color: var(--tertiary-text-color);
+    line-height: 1.5;
+}
+
+.index-body-intro {
     text-align: center;
 }
 
 a {
     border-radius: 4px;
     text-align: center;
+}
+
+.row {
+    margin: 40px 0px;
+}
+
+.btn-primary-color {
+    background: var(--primary-button-color)!important;
+    color: white!important;
+}
+
+@media (max-width: 770px) {
+    .index-body {
+        text-align: center;
+        justify-content: center;
+    }
 }
