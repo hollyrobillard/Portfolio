@@ -256,3 +256,13 @@ a {
 .work-projects p {
     color: var(--tertiary-text-color);
 }
+
+
+
+.contact {
+    padding: 40px 0px 20px 40px;
+}
+
+.contact p {
+    margin-bottom: 0px!important;
+}
