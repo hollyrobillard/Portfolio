@@ -245,7 +245,7 @@ a {
     color: var(--primary-text-color);
 }
 
-.work-projects h2, p {
+.work-projects h2, .work-projects p {
     text-align: center;
 }
 
