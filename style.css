@@ -274,7 +274,7 @@ a {
 
 .logo {
     margin: 10px 0 10px 10px;
-    max-width: 50px;
+    max-height: 50px;
 }
 
 nav ul {
@@ -286,4 +286,23 @@ nav ul {
 nav li {
     display: inline;
     margin: 0px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-button-color);
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    text-shadow: 2px;
+}
+
+@media (max-width: 410px) {
+    nav li {
+        display: block;
+        font-size: 12px;
+    }
 }
