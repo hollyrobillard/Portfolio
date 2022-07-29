@@ -305,4 +305,63 @@ nav a:hover, nav li.active a {
         display: block;
         font-size: 12px;
     }
+
+    .email-link {
+        font-size: 15px!important;
+    }
+}
+
+
+
+
+footer {
+    padding: 20px 0;
+    background-color: var(--primary-background-color);
+    border: 1px solid var(--primary-button-color);
+}
+
+.contact-box {
+    display: block;
+    margin: 10px auto 20px auto;
+    background-color: var(--primary-background-color);
+    padding: 20px 20px 10px 20px;
+    max-width: 500px;
+    border: 1px solid var(--primary-button-color);
+    border-radius: 10px;
+}
+
+footer button {
+    margin-top: 10px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.email-link:hover {
+    color: var(--primary-button-color);
+    font-weight: bold;
+}
+
+.social-links {
+    display: block;
+    justify-content: center;
+}
+
+ .social-links a {
+    color: var(--primary-button-color);
+    background-color: white;
+    padding: 8px 12px;
+    margin: 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+    color: white;
+    background-color: var(--primary-button-color);
 }
