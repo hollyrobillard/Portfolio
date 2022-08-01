@@ -14,19 +14,19 @@
   </head>
   <body class="page-text">
       <nav class="d-flex justify-content-between">
-        <img src="images/Code Logo.png" alt="Website Logo" class="logo d-sm-block d-none ">
+        <img src="images/Code Logo.png" alt="Website Logo" class="logo d-sm-block d-none" title="Homepage">
         <ul>
           <li class="active">
-            <a href="index.html">Home</a>
+            <a href="index.html" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html" title="About Page">About</a>
           </li>
           <li>
-            <a href="work.html">Projects</a>
+            <a href="work.html" title="Projects Page">Projects</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" title="Contact Page">Contact</a>
           </li>
         </ul>
       </nav>
@@ -34,7 +34,7 @@
         <h2>👋 Hello, I'm</h2>
         <h1>Holly Robillard</h1>
         <p>Front-end developer based in Berlin, Connecticut</p>
-        <button href="about.html#contact" class="btn btn-primary-color justify-content-center px-5">Contact Me</button>
+        <button href="about.html#contact" class="btn btn-primary-color justify-content-center px-5" title="Contact Button">Contact Me</button>
       </header>
       <main class="index-body">
         <p class="index-body-intro mb-5">Below are some of my most recent projects</p>
@@ -46,7 +46,7 @@
             <p class="app-details">
               This is information about the app. This is a great app! We can say more about the app.
             </p>
-            <button href="#" class="btn btn-primary-color">Go to Yogurt App</button>
+            <button href="#" class="btn btn-primary-color" title="Yogurt App Button">Go to Yogurt App</button>
           </div>
           <div class="col d-none d-md-block px-3">
             <img src="images/Yogurt App.png" alt="Yogurt App" class="img-fluid">
@@ -63,7 +63,7 @@
             <p class="app-details">
               This is information about the app. This is a great app! We can say more about the app.
             </p>
-            <button href="#" class="btn btn-primary-color">Go to Weather App</button>
+            <button href="#" class="btn btn-primary-color" title="Weather App Button">Go to Weather App</button>
           </div>
         </div>
         <div class="row">
@@ -74,14 +74,14 @@
             <p class="app-details">
               This is information about the app. This is a great app! We can say more about the app.
             </p>
-            <button href="#" class="btn btn-primary-color">Go to Dictionary App</button>
+            <button href="#" class="btn btn-primary-color" title="Dictionary App Button">Go to Dictionary App</button>
           </div>
           <div class="col d-none d-md-block px-3">
             <img src="images/Dictionary App.png" alt="Dictionary App" class="img-fluid">
           </div>
         </div>
       </main>
-      <footer>
+      <footer id="footer">
         <div class="contact-box d-sm-flex justify-content-between d-none">
             <div>
               <h4>
@@ -90,23 +90,26 @@
               <p>Let's work together</p>
             </div>
             <div>
-              <button class=" btn btn-primary-color">
+              <button href="about.html#contact" class=" btn btn-primary-color">
                 Contact Me
               </button>
             </div>
         </div>
-        <a href="mailto:h.ann.robillard@gmail.com" class="email-link d-flex justify-content-center">h.ann.robillard@gmail.com</a>
+        <a href="mailto:h.ann.robillard@gmail.com" class="email-link d-flex justify-content-center" title="Holly Robillard's Email Address">h.ann.robillard@gmail.com</a>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/worklifemeals/" target="_blank">
+          <a href="https://www.instagram.com/worklifemeals/" target="_blank" title="Instagram Profile">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://github.com/hollyrobillard" target="_blank">
+          <a href="https://github.com/hollyrobillard" target="_blank" title="Github Profile">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/hollyrobillard/" target="_blank">
+          <a href="https://www.linkedin.com/in/hollyrobillard/" target="_blank" title="LinkedIn Profile">
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center">
+          🌻 This site was coded by Holly Robillard and is open-sourced 🌻
+        </p>
       </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

@@ -25,19 +25,20 @@
         src="images/Code Logo.png"
         alt="Website Logo"
         class="logo d-sm-block d-none"
+        title="Homepage"
       />
       <ul>
         <li>
-          <a href="index.html">Home</a>
+          <a href="index.html" title="Homepage">Home</a>
         </li>
         <li>
-          <a href="about.html">About</a>
+          <a href="about.html" title="About Page">About</a>
         </li>
         <li class="active">
-          <a href="work.html">Projects</a>
+          <a href="work.html" title="Projects Page">Projects</a>
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+          <a href="contact.html" title="Contact Page">Contact</a>
         </li>
       </ul>
     </nav>
@@ -86,32 +87,50 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="footer">
       <div class="contact-box d-sm-flex justify-content-between d-none">
         <div>
           <h4>Work Inquiry</h4>
           <p>Let's work together</p>
         </div>
         <div>
-          <button class="btn btn-primary-color">Contact Me</button>
+          <button href="about.html#contact" class="btn btn-primary-color">
+            Contact Me
+          </button>
         </div>
       </div>
       <a
         href="mailto:h.ann.robillard@gmail.com"
         class="email-link d-flex justify-content-center"
+        title="Holly Robillard's Email Address"
         >h.ann.robillard@gmail.com</a
       >
       <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/worklifemeals/" target="_blank">
+        <a
+          href="https://www.instagram.com/worklifemeals/"
+          target="_blank"
+          title="Instagram Profile"
+        >
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://github.com/hollyrobillard" target="_blank">
+        <a
+          href="https://github.com/hollyrobillard"
+          target="_blank"
+          title="Github Profile"
+        >
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/hollyrobillard/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/hollyrobillard/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
+      <p class="text-center">
+        🌻 This site was coded by Holly Robillard and is open-sourced 🌻
+      </p>
     </footer>
   </body>
   <script
