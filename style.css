@@ -371,3 +371,13 @@ footer button {
     color: white;
     background-color: var(--primary-button-color);
 }
+
+footer .open-source-link {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+footer .open-source-link:hover {
+    color: var(--primary-button-color);
+    font-weight: bold;
+}
